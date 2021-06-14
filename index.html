@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hint">把这个按钮拖到你的书签栏里👉</div>
+      <a
+        href="javascript:function rb(){const SIGN_404='视频去哪了呢？_哔哩哔哩_bilibili</title>';const getRandomVideoUrl=()=> {const AV_AT_2021_06_02 = 973483810;const VIDEO_URL='https://www.bilibili.com/video/av';return`${VIDEO_URL}${Math.floor(Math.random()*AV_AT_2021_06_02)+1}`;};const randomBilibili=async()=>{while(true){const videoUrl=getRandomVideoUrl();console.log(`fetching ${videoUrl}`);const res=await fetch(videoUrl);const text=await res.text();if(!text.includes(SIGN_404)){window.open(videoUrl);break;}else{console.log(`404 ${videoUrl}`);}}};randomBilibili();};rb();void(0);"
+        class="button"
+        >random bilibili</a
+      >
+    </div>
+  </body>
+</html>
